@@ -1,0 +1,104 @@
+/* profile-post */
+body{
+    background:  #F4F6F7  ;
+}
+.card-header .profile{
+    width: 50px;
+}
+.card-header .profile .image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* style card in header,body,text */
+.card{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card-header{
+    border: none;
+    background: none;
+}
+.card-body{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card-text{
+    border: none;
+    background: none;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.container{
+    display: flex;
+}
+
+/* right-bar-post */
+
+.rigth-bar{
+    overflow-y: auto;
+    width: 70%;
+    height: 90vh;
+    
+}
+.left-bar{
+    width: 20%;
+    margin-left: 10%;
+
+}
+
+/* set style img at post and cover and profile */
+
+.img-post img{
+    width: 720px;
+}
+
+.img-cover{
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.img-profile img{
+    position: absolute;
+    width: 170px;
+    left: 80%;
+    bottom: 35%;
+}
+
+/* set style button  */
+.btn_post button{
+    border: none;
+    background: none;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn_post button a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: none;
+    color: blue;
+}
+
+.like{
+    margin-top: 20px;
+    width: 35%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 45px;   
+}
+navbar-brand{
+    color:blue;
+}
+
+.comment{
+border-bottom: 1px solid lightgray;
+}
+.main{
+    margin-right: 30%;
+    background-color: rebeccapurple;
+    justify-content: center;
+    
+}
